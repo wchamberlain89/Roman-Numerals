@@ -39,7 +39,7 @@ function romanDisplay(values) {
 // user interface
 $(function(){
   $("button").click(function(){
-    var result = romanConverter(parseInt($("#userNumber").val()));
+    var result = romanDisplay(parseInt($("#userNumber").val()));
     $("#result").text(result);
   });
 });
